@@ -35,4 +35,8 @@ public class RomanPrinter {
         }
         return asciiArt;
     }
+
+    public static String print(int num){
+        return printAsciiArt(IntegerToRoman.convert(num));
+    }
 }
